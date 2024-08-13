@@ -1,0 +1,34 @@
+.category-section li a {
+    color: #628281; /* Màu chữ */
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%; /* Tạo tỷ lệ 2:1 (8:4) */
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ khung hình và giữ tỷ lệ */
+}
+.news-title {
+    color: #222222;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+    margin-bottom: 4px;
+    font-size: 1.25rem;
+}
+.news-content {
+    color: #4f4f4f;
+    font-size: 1rem;
+}
+.news-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
