@@ -29,7 +29,7 @@ Route::get('/soanthao', function () {
 // Route để upload hình ảnh
 Route::post('/upload-image', [ArticleController::class, 'uploadImage'])->name('upload-image');
 
-// Route cho header (không rõ mục đích, có thể không cần)
+// Route cho header (để test)
 Route::get('/header', function () {
     return view('header');
 });
