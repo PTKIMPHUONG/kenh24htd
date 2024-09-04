@@ -16,10 +16,9 @@ class Article extends Model
 
     protected $table = 'articles';
 
-    const UPDATED_AT = null; // Disable the updated_at column
+    const UPDATED_AT = null; 
     public $timestamps = true;
 
-    // Optionally, if you want to explicitly specify the name of the created_at column
     const CREATED_AT = 'created_at';
 
     protected $fillable = [
